@@ -11,3 +11,5 @@ let categorySchema = new mongoose.Schema({
         default: ""
     }
 })
+
+module.exports = mongoose.model('category', categorySchema);
